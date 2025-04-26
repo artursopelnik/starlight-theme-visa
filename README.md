@@ -1,1 +1,1 @@
-packages/starlight-theme-visa/README.md
+./packages/starlight-theme-visa/README.md
