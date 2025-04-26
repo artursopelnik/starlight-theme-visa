@@ -1,12 +1,13 @@
-# [Starlight Theme Visa Docs Monorepo](#)
+# [Starlight Theme — Inspired by Visa Docs](#)
 
-wip
+> **Work in Progress**
 
-Note: I use IBM Plex Sans as an open-source alternative to Visa Dialect UI. 
+This project is a custom **Starlight** theme inspired by the design of Visa's documentation.  
+It's still under active development — feedback and contributions are welcome!
 
-If you don't like the Starmind Astro default icons and your are looking for an open source version of the Visa icons, you can look at Lucide Icons:
+## Notes
 
-https://lucide.dev/
+- The font used is **IBM Plex Sans**, an open-source alternative to Visa's proprietary **Dialect UI** font.
+- If you don't like the default **Starmind Astro** icons and are looking for an open-source alternative to Visa's icons, check out **[Lucide Icons](https://lucide.dev/)**.
 
-
-Visa d
+---

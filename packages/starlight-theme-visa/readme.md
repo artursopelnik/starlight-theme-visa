@@ -1,6 +1,6 @@
 <div align="center">
   <h1>starlight-theme-visa ⚡</h1>
-  <p>Starlight theme inspired by the Visa docs.</p>
+  <p>Starlight theme inspired by Visa's docs.</p>
   <p>
     <a href="https://i.imgur.com/FmJRxub.png" title="Screenshot of the Starlight Rapide theme in dark and light mode">
       <img alt="Screenshot of the Starlight Rapide theme in dark and light mode" src="https://i.imgur.com/FmJRxub.png" width="520" />

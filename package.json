@@ -2,7 +2,7 @@
   "name": "starlight-theme-visa-monorepo",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Starlight theme inspired by the Visa docs.",
+  "description": "Starlight theme inspired by Visa's docs.",
   "author": "Artur Sopelnik <artur.sopelnik93@gmail.com> (https://sotec-solutions.com)",
   "type": "module",
   "workspaces": [
