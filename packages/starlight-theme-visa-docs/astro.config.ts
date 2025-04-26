@@ -1,15 +1,17 @@
+// @ts-check
+import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight'
-import { defineConfig } from 'astro/config'
-import starlightThemeRapide from 'starlight-theme-visa'
+
+import starlightThemeVisa from 'starlight-theme-visa'
 
 export default defineConfig({
   integrations: [
     starlight({
       credits: true,
       editLink: {
-        baseUrl: 'https://github.com/HiDeoo/starlight-theme-visa/edit/main/docs/',
+        baseUrl: 'https://github.com/artursopelnik/starlight-theme-visa/edit/main/docs/',
       },
-      plugins: [starlightThemeRapide()],
+      plugins: [starlightThemeVisa()],
       sidebar: [
         {
           label: 'Start Here',
@@ -25,10 +27,9 @@ export default defineConfig({
         },
       ],
       social: [
-        { href: 'https://bsky.app/profile/hideoo.dev', icon: 'blueSky', label: 'Bluesky' },
-        { href: 'https://github.com/HiDeoo/starlight-theme-visa', icon: 'github', label: 'GitHub' },
+        { href: 'https://github.com/artursopelnik/starlight-theme-visa', icon: 'github', label: 'GitHub' },
       ],
-      title: 'Starlight Rapide',
+      title: 'Starlight Visa',
     }),
   ],
   site: 'https://starlight-theme-visa.vercel.app',

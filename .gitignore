@@ -31,5 +31,3 @@ releases
 test-results
 yarn-debug.log*
 yarn-error.log*
-
-packages/starlight

@@ -1,6 +1,6 @@
 <div align="center">
   <h1>starlight-theme-visa ⚡</h1>
-  <p>Starlight theme inspired by the Visual Studio Code Vitesse theme.</p>
+  <p>Starlight theme inspired by Visa Docs.</p>
 </div>
 
 <div align="center">

@@ -2,8 +2,8 @@
   "name": "starlight-theme-visa-docs",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Starlight theme inspired by the Visual Studio Code Vitesse theme.",
-  "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
+  "description": "Starlight theme inspired by Visa Docs.",
+  "author": "Artur Sopelnik <artur.sopelnik93@gmail.com> (https://sotec-solutions.com)",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
@@ -12,22 +12,21 @@
     "lint": "eslint . --cache --max-warnings=0"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.0",
+    "@astrojs/starlight": "^0.34.1",
     "@hideoo/starlight-plugins-docs-components": "^0.4.0",
-    "astro": "^5.7.4",
-    "sharp": "^0.33.5",
-    "starlight-theme-visa": "workspace:*"
+    "astro": "^5.7.5",
+    "sharp": "^0.34.1",
+    "starlight-theme-visa": "^0.0.1"
   },
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@9.0.4",
   "private": true,
   "sideEffects": false,
   "keywords": [
     "starlight",
     "theme",
-    "rapide",
+    "visa",
     "vitesse",
     "plugin",
     "documentation",

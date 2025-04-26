@@ -1,4 +1,8 @@
 @layer visa {
+    h1 {
+        color: var(--sl-color-accent)
+    }
+
     /* Header */
     header.header {
         box-shadow: var(--sl-nav-shadow);
@@ -70,7 +74,7 @@
             &:is(:hover, :focus-visible) {
                 &,
                 & .large {
-                    color: var(--sl-color-gray-0);
+
                 }
             }
 
@@ -107,7 +111,7 @@
                 font-weight: inherit;
 
                 &:is(:hover, :focus-visible) {
-                    color: var(--sl-color-white);
+
                 }
             }
         }
@@ -175,7 +179,7 @@
                     border-color: var(--sl-color-gray-0);
 
                     &:is(:hover, :focus-visible) {
-                        color: var(--sl-color-gray-0);
+
                     }
                 }
 
@@ -234,7 +238,7 @@
             text-underline-offset: 0.25em;
 
             &:is(:hover, :focus-visible) {
-                color: var(--sl-color-gray-0);
+
             }
         }
 
@@ -500,7 +504,7 @@
             padding-inline: 0.25rem;
 
             &:is(:hover, :focus-visible) {
-                color: var(--sl-color-gray-0);
+
             }
         }
     }
