@@ -2,6 +2,9 @@
 
 Starlight theme inspired by Visa Docs.
 
+
+<img src="../starlight-theme-visa-docs/public/starlight-visa-transparent.png" alt="JSONEditor-CLI" width="600"/>
+
 > **Work in Progress**
 
 This project is a custom **Starlight** theme inspired by the design of Visa's documentation.  
