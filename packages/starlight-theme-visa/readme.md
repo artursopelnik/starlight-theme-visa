@@ -1,22 +1,19 @@
-<div align="center">
-  <h1>starlight-theme-visa ⚡</h1>
-  <p>Starlight theme inspired by Visa's docs.</p>
-  <p>
-    <a href="https://i.imgur.com/FmJRxub.png" title="Screenshot of the Starlight Rapide theme in dark and light mode">
-      <img alt="Screenshot of the Starlight Rapide theme in dark and light mode" src="https://i.imgur.com/FmJRxub.png" width="520" />
-    </a>
-  </p>
-</div>
+# starlight-theme-visa
 
-<div align="center">
-  <a href="https://github.com/HiDeoo/starlight-theme-visa/actions/workflows/integration.yml">
-    <img alt="Integration Status" src="https://github.com/HiDeoo/starlight-theme-visa/actions/workflows/integration.yml/badge.svg" />
-  </a>
-  <a href="https://github.com/HiDeoo/starlight-theme-visa/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/HiDeoo/starlight-theme-visa" />
-  </a>
-  <br />
-</div>
+Starlight theme inspired by Visa Docs.
+
+> **Work in Progress**
+
+This project is a custom **Starlight** theme inspired by the design of Visa's documentation.  
+
+It's still under active development — feedback and contributions are welcome!
+
+## Notes
+- The theme is designed to be **responsive**, **mobile-friendly** and **accessible (dark-theme-support)**.
+
+- The font used is **IBM Plex Sans**, an open-source alternative to Visa's proprietary **Dialect UI** font.
+- If you don't like the default **Starmind Astro** icons and are looking for an open-source alternative to Visa's icons, check out **[Lucide Icons](https://lucide.dev/)**.
+---
 
 ## Getting Started
 
@@ -24,6 +21,6 @@ Want to get started immediately? Check out the [getting started guide](https://s
 
 ## License
 
-Licensed under the MIT License, Copyright © HiDeoo.
+Licensed under the MIT License, Copyright © Artur Sopelnik.
 
 See [LICENSE](https://github.com/HiDeoo/starlight-theme-visa/blob/main/LICENSE) for more information.

@@ -2,7 +2,7 @@
   "name": "starlight-theme-visa",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Starlight theme inspired by the Visual Studio Code Vitesse theme.",
+  "description": "Starlight theme inspired by the Visa Docs.",
   "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
   "type": "module",
   "exports": {
