@@ -1,6 +1,6 @@
 {
-  "name": "starlight-theme-rapide",
-  "version": "0.5.0",
+  "name": "starlight-theme-visa",
+  "version": "0.0.1",
   "license": "MIT",
   "description": "Starlight theme inspired by the Visual Studio Code Vitesse theme.",
   "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
@@ -25,7 +25,6 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@9.0.4",
   "publishConfig": {
     "access": "public",
     "provenance": true
@@ -40,11 +39,11 @@
     "documentation",
     "astro"
   ],
-  "homepage": "https://github.com/HiDeoo/starlight-theme-rapide",
+  "homepage": "https://github.com/HiDeoo/starlight-theme-visa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HiDeoo/starlight-theme-rapide.git",
-    "directory": "packages/starlight-theme-rapide"
+    "url": "https://github.com/HiDeoo/starlight-theme-visa.git",
+    "directory": "packages/starlight-theme-visa"
   },
-  "bugs": "https://github.com/HiDeoo/starlight-theme-rapide/issues"
+  "bugs": "https://github.com/HiDeoo/starlight-theme-visa/issues"
 }

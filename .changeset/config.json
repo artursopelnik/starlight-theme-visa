@@ -2,11 +2,11 @@
   "$schema": "https://unpkg.com/@changesets/config@3.0.4/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "HiDeoo/starlight-theme-rapide" }
+    { "repo": "HiDeoo/starlight-theme-visa" }
   ],
   "commit": false,
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["starlight-theme-rapide-docs"]
+  "ignore": ["starlight-theme-visa-docs"]
 }

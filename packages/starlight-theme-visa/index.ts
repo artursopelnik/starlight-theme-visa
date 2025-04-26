@@ -2,9 +2,9 @@ import type { StarlightPlugin } from '@astrojs/starlight/types'
 
 import { overrideComponents } from './libs/starlight'
 
-export default function starlightThemeRapidePlugin(): StarlightPlugin {
+export default function starlightThemeVisaPlugin(): StarlightPlugin {
   return {
-    name: 'starlight-theme-rapide',
+    name: 'starlight-theme-visa',
     hooks: {
       'config:setup'({ config, logger, updateConfig }) {
         const userExpressiveCodeConfig =
@@ -14,10 +14,10 @@ export default function starlightThemeRapidePlugin(): StarlightPlugin {
           components: overrideComponents(config, ['LanguageSelect', 'Pagination', 'ThemeSelect'], logger),
           customCss: [
             ...(config.customCss ?? []),
-            'starlight-theme-rapide/styles/layers',
-            'starlight-theme-rapide/styles/theme',
-            'starlight-theme-rapide/styles/base',
-            ...(config.markdown?.headingLinks === false ? [] : ['starlight-theme-rapide/styles/anchors']),
+            'starlight-theme-visa/styles/layers',
+            'starlight-theme-visa/styles/theme',
+            'starlight-theme-visa/styles/base',
+            ...(config.markdown?.headingLinks === false ? [] : ['starlight-theme-visa/styles/anchors']),
           ],
           expressiveCode:
             config.expressiveCode === false

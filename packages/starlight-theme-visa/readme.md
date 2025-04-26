@@ -1,6 +1,11 @@
 <div align="center">
   <h1>starlight-theme-visa ⚡</h1>
-  <p>Starlight theme inspired by the Visual Studio Code Vitesse theme.</p>
+  <p>Starlight theme inspired by the Visa docs.</p>
+  <p>
+    <a href="https://i.imgur.com/FmJRxub.png" title="Screenshot of the Starlight Rapide theme in dark and light mode">
+      <img alt="Screenshot of the Starlight Rapide theme in dark and light mode" src="https://i.imgur.com/FmJRxub.png" width="520" />
+    </a>
+  </p>
 </div>
 
 <div align="center">
@@ -13,13 +18,9 @@
   <br />
 </div>
 
-## Documentation
+## Getting Started
 
-Run the docs locally using [pnpm](https://pnpm.io):
-
-```shell
-pnpm run dev
-```
+Want to get started immediately? Check out the [getting started guide](https://starlight-theme-visa.vercel.app/getting-started/) or check out the various [examples](https://starlight-theme-visa.vercel.app/examples/asides/) to see the theme in action.
 
 ## License
 

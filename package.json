@@ -1,33 +1,40 @@
 {
-  "name": "starlight-theme-rapide-monorepo",
-  "version": "0.2.1",
+  "name": "starlight-theme-visa-monorepo",
+  "version": "0.0.1",
   "license": "MIT",
-  "description": "Starlight theme inspired by the Visual Studio Code Vitesse theme.",
-  "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
+  "description": "Starlight theme inspired by the Visa docs.",
+  "author": "Artur Sopelnik <artur.sopelnik93@gmail.com> (https://sotec-solutions.com)",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@types/node": "^22.15.2"
+  },
   "scripts": {
-    "lint": "astro check --noSync && pnpm -r lint",
-    "format": "prettier -w --cache --ignore-unknown .",
-    "version": "pnpm changeset version && pnpm i --no-frozen-lockfile"
+    "lint": "astro check --noSync",
+    "format": "npx prettier -w --cache --ignore-unknown .",
+    "update": "npx npm-check-updates -u"
   },
   "devDependencies": {
+    "npm-check-updates": "^18.0.1",
+    "lerna": "^8.2.2",
     "@astrojs/check": "^0.9.4",
-    "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.10",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.2",
     "@hideoo/eslint-config": "^4.0.0",
     "@hideoo/prettier-config": "^2.0.0",
     "@hideoo/tsconfig": "^2.0.1",
-    "@types/node": "^18.19.68",
-    "astro": "^5.7.4",
-    "eslint": "^9.17.0",
-    "prettier": "^3.4.2",
+    "@types/node": "^22.15.2",
+    "astro": "^5.7.5",
+    "eslint": "^9.25.1",
+    "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@9.0.4",
   "private": true,
   "sideEffects": false,
   "keywords": [
@@ -39,10 +46,10 @@
     "documentation",
     "astro"
   ],
-  "homepage": "https://github.com/HiDeoo/starlight-theme-rapide",
+  "homepage": "https://github.com/HiDeoo/starlight-theme-visa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HiDeoo/starlight-theme-rapide.git"
+    "url": "https://github.com/HiDeoo/starlight-theme-visa.git"
   },
-  "bugs": "https://github.com/HiDeoo/starlight-theme-rapide/issues"
+  "bugs": "https://github.com/HiDeoo/starlight-theme-visa/issues"
 }
