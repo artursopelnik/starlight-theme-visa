@@ -3,7 +3,7 @@
 Starlight theme inspired by Visa Docs.
 
 
-<img src="../starlight-theme-visa-docs/public/starlight-visa-transparent.png" alt="JSONEditor-CLI" width="600"/>
+<img width="320" src="starlight-visa-transparent.png" alt="JSONEditor-CLI" width="600"/>
 
 > **Work in Progress**
 
