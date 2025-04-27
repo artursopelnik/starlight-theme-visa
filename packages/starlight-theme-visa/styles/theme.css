@@ -13,7 +13,10 @@
     /* Typography */
     --sl-font: 'IBM Plex Sans', 'Open Sans', sans-serif;
     --sl-font-mono: monospace;
-    --sl-typography-anchor-font-weight: 600;
+    --sl-font-weight: 400;
+    --sl-font-weight-bold: 500;
+    --sl-font-weight-bolder: 600;
+    --sl-typography-anchor-font-weight: var(--sl-font-weight-bold);
     --sl-size-rounded-pill: 9999px;
 
     /* Text Sizes */
