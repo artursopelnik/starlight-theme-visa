@@ -23,6 +23,6 @@ pnpm run dev
 
 ## License
 
-Licensed under the MIT License, Copyright © HiDeoo.
+Licensed under the MIT License, Copyright © Artur Sopelnik.
 
 See [LICENSE](https://github.com/artursopelnik/starlight-theme-visa/blob/main/LICENSE) for more information.
