@@ -1,6 +1,7 @@
 @layer visa {
     h1 {
-        color: var(--sl-color-accent)
+        color: var(--sl-color-accent);
+        font-weight: var(--sl-font-weight-bolder);
     }
 
     /* Frontpage Background */
@@ -18,8 +19,12 @@
 
         .site-title {
             font-size: var(--sl-text-brand);
-            font-weight: 600;
             color: var(--sl-color-accent);
+            font-weight: var(--sl-font-weight-bolder);
+
+            &:is(:hover, :focus-visible) {
+                background-color: var(--sl-color-surface-highlight);
+            }
         }
 
         .right-group {
