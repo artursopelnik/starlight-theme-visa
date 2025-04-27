@@ -7,6 +7,7 @@ import starlightThemeVisa from 'starlight-theme-visa'
 export default defineConfig({
   integrations: [
     starlight({
+      favicon: './favicon.ico',
       credits: true,
       editLink: {
         baseUrl: 'https://github.com/artursopelnik/starlight-theme-visa/edit/main/docs/',
