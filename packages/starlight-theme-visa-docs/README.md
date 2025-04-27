@@ -4,11 +4,11 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/HiDeoo/starlight-theme-visa/actions/workflows/integration.yml">
-    <img alt="Integration Status" src="https://github.com/HiDeoo/starlight-theme-visa/actions/workflows/integration.yml/badge.svg" />
+  <a href="https://github.com/artursopelnik/starlight-theme-visa/actions/workflows/integration.yml">
+    <img alt="Integration Status" src="https://github.com/artursopelnik/starlight-theme-visa/actions/workflows/integration.yml/badge.svg" />
   </a>
-  <a href="https://github.com/HiDeoo/starlight-theme-visa/blob/main/LICENSE">
-    <img alt="License" src="https://badgen.net/github/license/HiDeoo/starlight-theme-visa" />
+  <a href="https://github.com/artursopelnik/starlight-theme-visa/blob/main/LICENSE">
+    <img alt="License" src="https://badgen.net/github/license/artursopelnik/starlight-theme-visa" />
   </a>
   <br />
 </div>
@@ -25,4 +25,4 @@ pnpm run dev
 
 Licensed under the MIT License, Copyright © HiDeoo.
 
-See [LICENSE](https://github.com/HiDeoo/starlight-theme-visa/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/artursopelnik/starlight-theme-visa/blob/main/LICENSE) for more information.

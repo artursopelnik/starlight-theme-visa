@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "description": "Starlight theme inspired by the Visa Docs.",
-  "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
+  "author": "Artur Sopelnik <artur.sopelnik93@gmail.com> (https://sotec-solutions.com)",
   "type": "module",
   "exports": {
     ".": "./index.ts",
