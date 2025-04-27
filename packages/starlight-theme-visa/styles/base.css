@@ -196,7 +196,9 @@
         }
 
         h2 {
-            font-size: var(--sl-text-base);
+            font-size: var(--sl-text-2xs);
+            text-transform: var(--sl-typography-overline-text-transform);
+            letter-spacing: var(--sl-text-ls-wide);
         }
 
         starlight-toc li {

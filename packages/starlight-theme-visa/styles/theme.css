@@ -16,8 +16,9 @@
     --sl-font-weight: 400;
     --sl-font-weight-bold: 500;
     --sl-font-weight-bolder: 600;
-    --sl-typography-anchor-font-weight: var(--sl-font-weight-bold);
     --sl-size-rounded-pill: 9999px;
+    --sl-typography-anchor-font-weight: var(--sl-font-weight-bold);
+    --sl-typography-overline-text-transform: uppercase;
 
     /* Text Sizes */
     --sl-text-h1: var(--sl-text-4xl);
@@ -26,6 +27,7 @@
     --sl-text-h4: var(--sl-text-xl);
     --sl-text-h5: var(--sl-text-lg);
     --sl-text-brand: var(--sl-text-xl);
+    --sl-text-ls-wide: 0.1em;
 
     /* Layout */
     --sl-nav-height: 80px;
