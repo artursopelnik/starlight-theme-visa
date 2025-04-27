@@ -15,12 +15,12 @@
     --sl-font-mono: monospace;
 
     --sl-font-weight: 400;
-    --sl-font-weight-bold: 600;
+    --sl-font-weight-bold: 500;
     --sl-font-weight-bolder: 700;
 
-    --sl-size-rounded-pill: 9999px;
     --sl-typography-anchor-font-weight: var(--sl-font-weight-bold);
     --sl-typography-overline-text-transform: uppercase;
+    --sl-size-rounded-pill: 9999px;
 
     /* Text Sizes */
     --sl-text-h1: var(--sl-text-4xl);
@@ -40,6 +40,8 @@
 
   /* Light Theme Settings */
   :root[data-theme="light"] {
+    /* Note: In light theme, white and black are swapped by starlight.
+       Prefer using --sl-color-gray-0 for white and --sl-color-gray-10 for black. */
     --sl-color-white: var(--sl-color-gray-10);
     --sl-color-black: var(--sl-color-gray-0);
     --sl-color-accent-low: #1434cb; /* active-hover */

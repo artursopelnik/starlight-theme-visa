@@ -1,4 +1,8 @@
 @layer visa {
+    html {
+        /* --sl-content-width: 67.5rem; */
+    }
+
     h1 {
         color: var(--sl-color-accent);
         font-weight: var(--sl-font-weight-bolder);
