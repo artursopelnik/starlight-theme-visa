@@ -26,4 +26,4 @@ Want to get started immediately? Check out the [getting started guide](https://s
 
 Licensed under the MIT License, Copyright © Artur Sopelnik.
 
-See [LICENSE](https://github.com/HiDeoo/starlight-theme-visa/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/artursopelnik/starlight-theme-visa/blob/main/LICENSE) for more information.

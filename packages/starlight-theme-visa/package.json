@@ -43,11 +43,11 @@
     "documentation",
     "astro"
   ],
-  "homepage": "https://github.com/HiDeoo/starlight-theme-visa",
+  "homepage": "https://github.com/artursopelnik/starlight-theme-visa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HiDeoo/starlight-theme-visa.git",
+    "url": "https://github.com/artursopelnik/starlight-theme-visa.git",
     "directory": "packages/starlight-theme-visa"
   },
-  "bugs": "https://github.com/HiDeoo/starlight-theme-visa/issues"
+  "bugs": "https://github.com/artursopelnik/starlight-theme-visa/issues"
 }
