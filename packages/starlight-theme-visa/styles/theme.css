@@ -13,6 +13,8 @@
     /* Typography */
     --sl-font: 'IBM Plex Sans', 'Open Sans', sans-serif;
     --sl-font-mono: monospace;
+    --sl-typography-anchor-font-weight: 600;
+    --sl-size-rounded-pill: 9999px;
 
     /* Text Sizes */
     --sl-text-h1: var(--sl-text-4xl);
@@ -25,6 +27,8 @@
     /* Layout */
     --sl-nav-height: 80px;
     --sl-nav-shadow: 0 2px 6px -1px var(--sl-color-disabled);
+    --sl-nav-right-group-gap: 8px;
+    --sl-nav-right-group-icon-size: 24px;
   }
 
   /* Light Theme Settings */
@@ -35,6 +39,7 @@
     --sl-color-accent: #1434CB;
     --sl-color-accent-high: #0f2595; /* pressed */
     --sl-color-surface-2: #f5f5f5;
+    --sl-color-surface-highlight: rgba(179, 215, 255, 0.35);
     --sl-color-gray-5: #e6e6e6;
     --sl-color-gray-6: #e6e6e6; /* visa gray, use gray-6 instead of 5 further for light theme */
     --sl-color-gray-7: var(--sl-color-surface-2); /* surface2 */
@@ -49,6 +54,7 @@
     --sl-color-accent: #bdeaff;
     --sl-color-accent-high: #bdeaff; /* pressed */
     --sl-color-surface-2: #1A1A1A;
+    --sl-color-surface-highlight: #0000005A;
     --sl-color-gray-5: #2f2f2f;
     --sl-color-gray-6: #1b1b1b;
     --sl-color-gray-7: var(--sl-color-surface-2);

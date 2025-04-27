@@ -14,22 +14,49 @@
         }
 
         .right-group {
-            gap: 0;
+            gap: var(--sl-nav-right-group-gap);
+
+            .social-icons a,
+            button {
+                color: var(--sl-color-accent);
+                font-weight: var(--sl-typography-anchor-font-weight);
+                border-radius: var(--sl-size-rounded-pill);
+                padding: 11px;
+
+                svg {
+                    color: inherit;
+                    width: var(--sl-nav-right-group-icon-size);
+                    height: var(--sl-nav-right-group-icon-size);
+                }
+
+                &:is(:hover, :focus-visible) {
+                    opacity: 1;
+                    background-color: var(--sl-color-surface-highlight);
+                }
+            }
+
+            .social-icons {
+                &::after {
+                    content: unset;
+                    height: auto;
+                    border: none;
+                }
+                a {
+                    margin: -11px;
+                }
+            }
+
+            button {
+                .moon,
+                .sun {
+                   fill: currentColor;
+                }
+                .sun-beams {
+                    stroke: currentColor;
+                    stroke-width: 2px;
+                }
+            }
         }
-
-        /*
-        .social-icons a {
-            color: var(--sl-color-gray-2);
-
-            &:hover {
-                color: var(--sl-color-gray-0);
-                opacity: 1;
-            }
-
-            &:last-child {
-                margin-inline-end: -0.125rem;
-            }
-        } */
     }
 
     /**
@@ -168,6 +195,10 @@
             padding-top: calc(var(--sl-nav-height) + 1.75rem);
         }
 
+        h2 {
+            font-size: var(--sl-text-base);
+        }
+
         starlight-toc li {
             & > a {
                 border-inline-start: 1px solid var(--sl-color-hairline-light);
@@ -234,11 +265,11 @@
      */
     .sl-markdown-content {
         a:not(:where(.not-content *)) {
-            color: var(--sl-color-white);
-            text-underline-offset: 0.25em;
+            color: var(--sl-color-accent);
+            font-weight: var(--sl-typography-anchor-font-weight);
 
             &:is(:hover, :focus-visible) {
-
+                background-color: var(--sl-color-surface-highlight);
             }
         }
 
