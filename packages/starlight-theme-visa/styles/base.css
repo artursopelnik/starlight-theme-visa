@@ -3,6 +3,15 @@
         color: var(--sl-color-accent)
     }
 
+    /* Frontpage Background */
+    [data-has-hero] {
+        .page {
+            --purple-hsl: 255, 60%, 60%;
+            --overlay-blurple: hsla(var(--purple-hsl), .2);
+            background: linear-gradient(215deg, var(--overlay-blurple), transparent 40%), radial-gradient(var(--overlay-blurple), transparent 40%) no-repeat -60vw -40vh / 105vw 200vh, radial-gradient(var(--overlay-blurple), transparent 65%) no-repeat 50% calc(100% + 20rem) / 60rem 30rem;
+        }
+    }
+
     /* Header */
     header.header {
         box-shadow: var(--sl-nav-shadow);
@@ -41,6 +50,7 @@
                     height: auto;
                     border: none;
                 }
+
                 a {
                     margin: -11px;
                 }
@@ -49,8 +59,9 @@
             button {
                 .moon,
                 .sun {
-                   fill: currentColor;
+                    fill: currentColor;
                 }
+
                 .sun-beams {
                     stroke: currentColor;
                     stroke-width: 2px;
@@ -534,10 +545,13 @@
         }
 
         &.minimal {
-            padding-inline: 0.25rem;
+            padding: 0.75rem 1rem;
+
+            color: var(--sl-color-accent);
+            font-weight: var(--sl-typography-anchor-font-weight);
 
             &:is(:hover, :focus-visible) {
-
+                background-color: var(--sl-color-surface-highlight);
             }
         }
     }
@@ -560,11 +574,11 @@
         text-wrap: initial;
 
         a {
-            color: var(--sl-color-accent-accent);
+            color: var(--sl-color-accent);
             text-underline-offset: 0.25em;
 
             &:is(:hover, :focus-visible) {
-                color: var(--sl-color-accent-accent-invert);
+                color: red;
             }
         }
 
